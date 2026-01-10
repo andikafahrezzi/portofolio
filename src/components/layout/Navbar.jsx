@@ -1,14 +1,42 @@
-export default function Navbar() {
+import React, { useState, useEffect } from 'react';
+import { Mail, Github, Linkedin, Phone, Send, Code, Server, Database, Download, Briefcase, Award, FileText, Layers, MapPin, Clock } from 'lucide-react';
+
+
+const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToSection = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
-    <nav className="fixed w-full z-50 bg-slate-900/80 backdrop-blur border-b border-white/10">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between">
-        <span className="font-bold text-lg">Pahrul.dev</span>
-        <div className="space-x-6 text-sm text-gray-300">
-          <a href="#about" className="hover:text-white">About</a>
-          <a href="#projects" className="hover:text-white">Projects</a>
-          <a href="#contact" className="hover:text-white">Contact</a>
+    <nav className={`fixed top-0 w-full z-40 transition-all duration-300 ${scrolled ? 'bg-gray-900 shadow-lg' : 'bg-transparent'}`}>
+      <div className="container mx-auto px-4 py-4">
+        <div className="flex justify-between items-center">
+          <h1 className="text-2xl font-bold text-white">Portfolio</h1>
+          <div className="hidden md:flex space-x-8">
+            {['Home', 'About', 'Portfolio', 'Skills', 'Contact'].map((item) => (
+              <button
+                key={item}
+                onClick={() => scrollToSection(item.toLowerCase())}
+                className="text-gray-300 hover:text-white transition-colors duration-300"
+              >
+                {item}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </nav>
   );
-}
+};
+
+export default Navbar;

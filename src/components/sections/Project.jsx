@@ -1,5 +1,7 @@
 import React, { useState} from 'react';
 import { Mail, Github, Linkedin, Phone, Send, Code, Server, Database, Download, Briefcase, Award, FileText, Layers, MapPin, Clock } from 'lucide-react';
+import elearningImage from '../../assets/e-learning.png';
+import ppdbImage from '../../assets/tlfajar.png';
 
 
 const Portfolio = () => {
@@ -10,20 +12,27 @@ const Portfolio = () => {
       title: "Website PPDB TK Fajar Nusantara",
       description: "Sistem Penerimaan Peserta Didik Baru yang memudahkan proses pendaftaran dengan interface yang user-friendly",
       tech: ["React", "Tailwind CSS"],
-      image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&h=600&fit=crop",
+      image: ppdbImage,
       color: "from-blue-500 to-cyan-500"
     },
     {
       title: "E-Learning PKBM Cipta Tunas Karya",
       description: "Platform pembelajaran lengkap dengan modul, video, forum, quiz, ujian, dan manajemen data akademik",
       tech: ["PHP", "CodeIgniter 3", "MySQL"],
-      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&h=600&fit=crop",
+      image: elearningImage,
       color: "from-purple-500 to-pink-500"
     },
     {
       title: "ERP System Multi-Division",
       description: "Sistem Enterprise Resource Planning yang mengintegrasikan berbagai divisi/role perusahaan",
       tech: ["Laravel", "Tailwind CSS", "MySQL"],
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+      color: "from-green-500 to-teal-500"
+    },
+    {
+      title: "Job Tracking Application",
+      description: "Platform untuk memantau status lamaran pekerjaan yang bisa digunakan oleh pencari kerja",
+      tech: ["Laravel", "Tailwind CSS", "Sqlite"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
       color: "from-green-500 to-teal-500"
     }
@@ -61,10 +70,8 @@ const Portfolio = () => {
   const techStack = {
     frontend: [
       { name: "React", icon: "⚛️" },
-      { name: "Next.js", icon: "▲" },
       { name: "Tailwind", icon: "🎨" },
       { name: "JavaScript", icon: "📜" },
-      { name: "TypeScript", icon: "📘" }
     ],
     backend: [
       { name: "PHP", icon: "🐘" },
@@ -75,15 +82,13 @@ const Portfolio = () => {
     ],
     database: [
       { name: "MySQL", icon: "🐬" },
-      { name: "PostgreSQL", icon: "🐘" },
+      { name: "Sqllite", icon: "🐘" },
       { name: "MongoDB", icon: "🍃" }
     ],
     tools: [
       { name: "Git", icon: "📦" },
-      { name: "Docker", icon: "🐳" },
       { name: "VS Code", icon: "💻" },
       { name: "Postman", icon: "📮" },
-      { name: "Figma", icon: "🎨" }
     ]
   };
 

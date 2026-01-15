@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <p className="text-gray-400 mb-4">
-            &copy; 2026 <span className="text-purple-400 font-bold">andikafahrezzi</span>. Dibuat dengan ❤️ menggunakan React & Tailwind CSS
+            &copy; 2026 <span className="text-purple-400 font-bold">andikafahrezzi</span>. All rights reserved.
           </p>
           <div className="flex justify-center space-x-6">
             {[

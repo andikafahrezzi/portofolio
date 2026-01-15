@@ -22,32 +22,43 @@ const Portfolio = () => {
       image: ppdbImage,
       color: "from-blue-500 to-cyan-500",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/andikafahrezzi/landing-page"
     },
     {
       title: "E-Learning PKBM Cipta Tunas Karya",
       description: "Platform pembelajaran lengkap dengan modul, video, forum, quiz, ujian, dan manajemen data akademik",
       tech: ["PHP", "CodeIgniter 3", "MySQL"],
       image: elearningImage,
-      color: "from-purple-500 to-pink-500",
+      color: "from-cyan-500 to-pink-500",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/andikafahrezzi/addustedu"
     },
     {
-      title: "ERP System Multi-Division",
-      description: "Sistem Enterprise Resource Planning yang mengintegrasikan berbagai divisi/role perusahaan",
+      title: "Company Profile",
+      description: "Website profil perusahaan yang menampilkan informasi tentang layanan, portofolio, dan kontak bisnis yang bisa diubah melalui dashboard admin",
       tech: ["Laravel", "Tailwind CSS", "MySQL"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-      color: "from-green-500 to-teal-500",
+      color: "from-pink-500 to-red-500",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/andikafahrezzi/company-profile"
     },
-        {
+    {
+      title: "Enterprise Resource Planning",
+      description: "Aplikasi ERP untuk mengelola berbagai aspek operasional bisnis dalam satu platform terpadu",
+      tech: ["Laravel", "Tailwind CSS", "MySQL"],
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+      color: "from-red-500 to-yellow-500",
+      liveLink: "#",
+      githubLink: "https://github.com/andikafahrezzi/addustflow"
+    },
+    {
       title: "Job Tracking Application",
       description: "Platform untuk memantau status lamaran pekerjaan yang bisa digunakan oleh pencari kerja",
-      tech: ["Laravel", "Tailwind CSS", "Sqlite"],
+      tech: ["Laravel", "Tailwind CSS", "SQLite"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-      color: "from-green-500 to-teal-500"
+      color: "from-yellow-500 to-blue-500",
+      liveLink: "#",
+      githubLink: "https://github.com/andikafahrezzi/job-tracker"
     }
   ];
 

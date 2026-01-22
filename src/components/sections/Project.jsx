@@ -83,26 +83,26 @@ const Portfolio = () => {
 
   const techStack = {
     frontend: [
-      { name: "React", icon: "⚛️", level: "Expert", color: "text-cyan-400" },
-      { name: "Tailwind", icon: "🎨", level: "Advanced", color: "text-teal-400" },
-      { name: "JavaScript", icon: "📜", level: "Expert", color: "text-yellow-400" },
+      { name: "React", icon: "⚛️", level: "Intermediate", color: "text-cyan-400" },
+      { name: "Tailwind", icon: "🎨", level: "Intermediate", color: "text-teal-400" },
+      { name: "JavaScript", icon: "📜", level: "Intermediate", color: "text-yellow-400" },
     ],
     backend: [
-      { name: "PHP", icon: "🐘", level: "Advanced", color: "text-purple-400" },
-      { name: "Laravel", icon: "🔴", level: "Advanced", color: "text-red-400" },
-      { name: "CodeIgniter", icon: "🔥", level: "Expert", color: "text-orange-400" },
+      { name: "PHP", icon: "🐘", level: "Intermediate", color: "text-purple-400" },
+      { name: "Laravel", icon: "🔴", level: "Intermediate", color: "text-red-400" },
+      { name: "CodeIgniter", icon: "🔥", level: "Intermediate", color: "text-orange-400" },
       { name: "Node.js", icon: "🟢", level: "Intermediate", color: "text-green-400" },
       { name: "Express", icon: "⚡", level: "Intermediate", color: "text-blue-400" }
     ],
     database: [
-      { name: "MySQL", icon: "🐬", level: "Advanced", color: "text-blue-300" },
+      { name: "MySQL", icon: "🐬", level: "Intermediate", color: "text-blue-300" },
       { name: "Sqllite", icon: "🗃️", level: "Intermediate", color: "text-gray-300" },
       { name: "MongoDB", icon: "🍃", level: "Beginner", color: "text-green-300" }
     ],
     tools: [
-      { name: "Git", icon: "📦", level: "Expert", color: "text-orange-300" },
-      { name: "VS Code", icon: "💻", level: "Expert", color: "text-blue-300" },
-      { name: "Postman", icon: "📮", level: "Advanced", color: "text-orange-400" },
+      { name: "Git", icon: "📦", level: "Intermediate", color: "text-orange-300" },
+      { name: "VS Code", icon: "💻", level: "ExpIntermediateert", color: "text-blue-300" },
+      { name: "Postman", icon: "📮", level: "Intermediate", color: "text-orange-400" },
     ]
   };
 

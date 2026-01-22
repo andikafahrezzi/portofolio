@@ -7,7 +7,7 @@ import {
   Download, Briefcase, Award, FileText, Layers, MapPin, Clock, 
   Sparkles, Cpu, Globe, Zap, Target, Rocket, Brain, Cpu as CpuIcon
 } from 'lucide-react';
-import profile from '../../assets/jass.jpg';
+import profile from '../../assets/tanpawm.jpeg';
 
 const About = () => {
   const mouseX = useMotionValue(0);
@@ -26,6 +26,18 @@ const About = () => {
     mouseX.set(x);
     mouseY.set(y);
   };
+  const handleDownloadCV = () => {
+  // Buat anchor element
+  const link = document.createElement('a');
+  link.href = '/cv.pdf';
+  link.download = 'CV_AndikaFahrezi.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  
+  // Optional: Track download dengan analytics
+  console.log('CV downloaded');
+};
 
   const handleMouseLeave = () => {
     mouseX.set(0);
@@ -263,7 +275,8 @@ const About = () => {
                 <motion.button 
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="relative group overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold py-4 px-8 rounded-xl flex items-center justify-center gap-3"
+                  onClick={handleDownloadCV}
+                  className="relative group overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold py-4 px-8 rounded-xl flex items-center justify-center gap-3 cursor-pointer"
                 >
                   <motion.span
                     animate={{ y: [0, -2, 0] }}

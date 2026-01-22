@@ -8,6 +8,8 @@ import {
 } from 'lucide-react';
 import elearningImage from '../../assets/e-learning.png';
 import ppdbImage from '../../assets/tlfajar.png';
+import bnsp from '../../assets/bnsp.jpg';
+import ibm from '../../assets/code-generation-and-optimization-using-ibm-granite.png';
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('projects');
@@ -22,56 +24,60 @@ const Portfolio = () => {
       image: ppdbImage,
       color: "from-blue-500 to-cyan-500",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/andikafahrezzi/landing-page"
     },
     {
       title: "E-Learning PKBM Cipta Tunas Karya",
       description: "Platform pembelajaran lengkap dengan modul, video, forum, quiz, ujian, dan manajemen data akademik",
       tech: ["PHP", "CodeIgniter 3", "MySQL"],
       image: elearningImage,
-      color: "from-purple-500 to-pink-500",
+      color: "from-cyan-500 to-pink-500",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/andikafahrezzi/addustedu"
     },
     {
-      title: "ERP System Multi-Division",
-      description: "Sistem Enterprise Resource Planning yang mengintegrasikan berbagai divisi/role perusahaan",
+      title: "Company Profile",
+      description: "Website profil perusahaan yang menampilkan informasi tentang layanan, portofolio, dan kontak bisnis yang bisa diubah melalui dashboard admin",
       tech: ["Laravel", "Tailwind CSS", "MySQL"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-      color: "from-green-500 to-teal-500",
+      color: "from-pink-500 to-red-500",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/andikafahrezzi/company-profile"
     },
-        {
+    {
+      title: "Enterprise Resource Planning",
+      description: "Aplikasi ERP untuk mengelola berbagai aspek operasional bisnis dalam satu platform terpadu",
+      tech: ["Laravel", "Tailwind CSS", "MySQL"],
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+      color: "from-red-500 to-yellow-500",
+      liveLink: "#",
+      githubLink: "https://github.com/andikafahrezzi/addustflow"
+    },
+    {
       title: "Job Tracking Application",
       description: "Platform untuk memantau status lamaran pekerjaan yang bisa digunakan oleh pencari kerja",
-      tech: ["Laravel", "Tailwind CSS", "Sqlite"],
+      tech: ["Laravel", "Tailwind CSS", "SQLite"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-      color: "from-green-500 to-teal-500"
+      color: "from-yellow-500 to-blue-500",
+      liveLink: "#",
+      githubLink: "https://github.com/andikafahrezzi/job-tracker"
     }
   ];
 
   const certifications = [
     { 
-      name: "AWS Certified Developer", 
-      issuer: "Amazon Web Services", 
-      year: "2024",
-      image: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=600&h=400&fit=crop",
-      credentialId: "AWS-DEV-2024-001"
+      name: "Network Administration Certification", 
+      issuer: "Badan Nasional Sertifikasi Profesi (BNSP)", 
+      year: "2025",
+      image: bnsp,
+      credentialId: "J.1426.03120 2025"
     },
     { 
-      name: "React Advanced Certification", 
-      issuer: "Meta", 
-      year: "2023",
-      image: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?w=600&h=400&fit=crop",
-      credentialId: "META-REACT-2023"
-    },
-    { 
-      name: "Full Stack Web Development", 
-      issuer: "Udemy", 
-      year: "2023",
-      image: "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=600&h=400&fit=crop",
-      credentialId: "UDEMY-FSWD-2023"
+      name: "Code Generation and Optimization Using IBM Granite", 
+      issuer: "IBM SkillsBuild", 
+      year: "2025",
+      image: ibm,
+      credentialId: "PWID-B0979900"
     }
   ];
 

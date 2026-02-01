@@ -271,7 +271,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
-                className="text-white font-semibold text-lg hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-blue-400 transition-all duration-300 break-words whitespace-normal word-break-break-all"
+                className="text-white font-semibold text-base hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-blue-400 transition-all duration-300 break-words whitespace-normal word-break-break-all"
                 style={{ wordBreak: 'break-all' }} /* Force break long words */
               >
                 {info.value}

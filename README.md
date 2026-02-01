@@ -1,16 +1,98 @@
-# React + Vite
+# 🚀 Personal Portfolio – Pahrul Maji
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website portofolio pribadi untuk menampilkan profil, pengalaman, dan project yang pernah saya kerjakan sebagai **Software Engineer / Web Developer**.  
+Dibangun dengan fokus pada **modern UI**, **interaktivitas**, dan **clean architecture**.
 
-Currently, two official plugins are available:
+🌐 Live Demo: https://andikafahrezzi.vercel.app  
+📂 Repository: https://github.com/andikafahrezzi/portofolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 👋 Tentang Saya
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Saya adalah seorang **Programmer / Web Developer** dengan latar belakang:
 
-## Expanding the ESLint configuration
+- 🎓 **SMK – Teknik Jaringan Komputer**
+- 🎓 **S1 – Teknik Informatika**
+- 💻 Fokus pada **Web Development** (Frontend & Backend)
+- 🧩 Berpengalaman membangun aplikasi berbasis kebutuhan nyata di masyarakat
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Saya terbiasa mengerjakan sistem dengan **multi-role (admin, guru, siswa, user)** dan **alur bisnis nyata**, bukan sekadar project dummy.
+
+---
+
+## 🧠 Tech Stack
+
+### Frontend
+- ⚛️ React (Vite)
+- 🎨 Tailwind CSS
+- 🧩 Component-based architecture
+- 📱 Responsive Design
+
+### Backend (Project Experience)
+- 🐘 PHP (CodeIgniter 3)
+- 🧱 Laravel
+- 🗄️ MySQL
+
+### Tools & Others
+- Git & GitHub
+- REST API
+- Role-based Access Control
+- UI/UX Oriented Development
+
+---
+
+## 📌 Fitur Portofolio
+
+- ✅ Intro Screen (Full Screen Landing)
+- ✅ Typing Animation (domain-style showcase)
+- ✅ About Me Section
+- ✅ Project Showcase (dengan preview image)
+- ✅ Tech Stack Overview
+- ✅ Contact Section (Email / WhatsApp)
+- ✅ Responsive & Modern UI
+
+---
+
+## 🧩 Project Highlight
+
+### 🎓 PPDB – TK Fajar Nusantara
+**Tech:** React, Tailwind CSS  
+Sistem Penerimaan Peserta Didik Baru berbasis web untuk mempermudah pendaftaran online.
+
+---
+
+### 📚 E-Learning – PKBM Cipta Tunas Karya
+**Tech:** PHP (CodeIgniter 3), MySQL  
+Fitur utama:
+- Modul & Video Pembelajaran
+- Forum Diskusi
+- Quiz & Ujian
+- Multi Role (Admin, Guru, Siswa)
+- Manajemen Data Akademik
+
+---
+
+### 🏢 ERP System (Multi Division)
+**Tech:** Laravel, Tailwind CSS  
+Sistem internal perusahaan dengan:
+- Banyak role & divisi
+- Integrasi data antar modul
+- Akses berbasis otorisasi
+
+---
+
+## 🛠️ Instalasi & Menjalankan Project
+
+```bash
+# clone repository
+git clone https://github.com/andikafahrezzi/portofolio.git
+
+# masuk folder
+cd portofolio
+
+# install dependencies
+npm install
+
+# jalankan development server
+npm run dev

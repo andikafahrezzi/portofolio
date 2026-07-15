@@ -1,4 +1,4 @@
-# 🚀 Personal Portfolio – Pahrul Maji
+# 🚀 Personal Portfolio – Andika Fahrezi
 
 Website portofolio pribadi untuk menampilkan profil, pengalaman, dan project yang pernah saya kerjakan sebagai **Software Engineer / Web Developer**.  
 Dibangun dengan fokus pada **modern UI**, **interaktivitas**, dan **clean architecture**.
